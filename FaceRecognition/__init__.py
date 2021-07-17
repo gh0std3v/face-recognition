@@ -327,7 +327,7 @@ def plot_graph(graph, adj):
     nx.draw_networkx_edges(g, pos, ax=ax, edgelist=g.edges())
     return fig, ax
 
-plot_graph(nodes, adj_matrix)
+
 
 
 # In[ ]:
